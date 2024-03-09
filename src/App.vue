@@ -1,0 +1,23 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
+<template>
+  <header>
+    <div class="wrapper">
+      <nav>
+        <RouterLink to="/"></RouterLink>
+      </nav>
+    </div>
+  </header>
+
+  <RouterView />
+</template>
+
+<style>
+    @media screen and (min-width:820px) {
+          html{
+                overflow: hidden;
+            }
+    }
+</style>
